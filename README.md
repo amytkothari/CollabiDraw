@@ -1,6 +1,6 @@
-🧠 CollabiDraw – Collaborate Visually, in Real Time
+🧠 Collaborative Board – Collaborate Visually, in Real Time
 
-CollabiDraw is a modern whiteboard collaboration tool designed for seamless real-time drawing and brainstorming. Think of it as your digital space for team ideation, planning, and visual communication — inspired by tools like Excalidraw and Miro, but tailored for real-time interactivity and simplicity.
+Collaborative Board is a modern whiteboard collaboration tool designed for seamless real-time drawing and brainstorming. Think of it as your digital space for team ideation, planning, and visual communication — inspired by tools like Excalidraw and Miro, but tailored for real-time interactivity and simplicity.
 
 ⸻
 
