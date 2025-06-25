@@ -1,46 +1,50 @@
-# 🧠 CollabiDraw – Real-time Collaborative Whiteboard App
+🧠 CollabiDraw – Collaborate Visually, in Real Time
 
-**CollabiDraw** is a real-time collaborative whiteboard application inspired by tools like Excalidraw and Miro. It allows users to draw, sketch, brainstorm, and collaborate live with others in shared whiteboard rooms.
+CollabiDraw is a modern whiteboard collaboration tool designed for seamless real-time drawing and brainstorming. Think of it as your digital space for team ideation, planning, and visual communication — inspired by tools like Excalidraw and Miro, but tailored for real-time interactivity and simplicity.
 
----
+⸻
 
-## 🚀 Features
+🚀 What You Can Do with CollabiDraw
 
-- 🎨 Drawing tools: pencil, shapes, erase, undo/redo, clear canvas
-- 🧩 Room management: create/join public or private rooms
-- 🔒 Firebase authentication: secure login and user management
-- ☁️ Cloud Firestore & Firebase Storage: persistent room data
-- 📡 Real-time multi-user collaboration with WebSocket (Socket.io)
-- ♻️ Canvas state management & sync across users using Zustand
-- 🧠 Responsive, minimal UI built with Tailwind CSS + ShadCN UI
+✨ Sketch Freely
+	•	Draw with pencils, create shapes, erase mistakes, undo/redo changes, or clear the canvas entirely.
 
----
+🔐 Control Your Space
+	•	Start or join whiteboard rooms — public for open collaboration, or private for secure sessions.
 
-## 🛠 Tech Stack
+👥 Invite Others, Work Together
+	•	Draw and brainstorm in real-time with others via WebSockets (Socket.io).
 
-### 🔧 Frontend
-- **React + Vite**
-- **Tailwind CSS** for styling
-- **ShadCN UI** for reusable components
-- **Zustand** for local/global state management
-- **Axios** for API requests
-- **Socket.io Client** for real-time sync
+🖼️ Persistent Workspaces
+	•	Your whiteboard data is saved with Firestore, so you can leave and return without losing progress.
 
-### 🌐 Backend
-- **Node.js + Express**
-- **TypeScript**
-- **Socket.io** for WebSocket integration
-- **Firebase Admin SDK** for database & auth
-- **Cloud Firestore** for room and canvas data
-- **Firebase Storage** for large canvas snapshots (optional)
+🧠 Simple Yet Powerful UI
+	•	Clean, responsive design powered by Tailwind CSS and ShadCN UI components.
 
-### 🔐 Authentication
-- **Firebase Authentication** using JWT
-- Middleware to protect routes and verify users
+⸻
 
----
+🧰 Technology Overview
 
-## To try it out:
-Deployement link : https://collabi-draw-gygm.vercel.app/
-Just create new users, create or join rooms and draw.
+⚙️ Frontend
+	•	React + Vite for a fast and modern development experience
+	•	Tailwind CSS for utility-first responsive styling
+	•	ShadCN UI to keep components consistent and accessible
+	•	Zustand for smooth global and local state handling
+	•	Socket.io Client for real-time interaction
+	•	Axios for efficient API communication
 
+🔧 Backend
+	•	Node.js + Express for scalable server-side logic
+	•	TypeScript ensures type safety and better maintainability
+	•	Socket.io to enable WebSocket-based real-time data sync
+	•	Firebase Admin SDK to manage authentication and database integration
+	•	Cloud Firestore for storing room data and canvas state
+	•	Firebase Storage (optional) for saving high-resolution snapshots
+
+⸻
+
+🔒 Authentication & Security
+	•	Firebase Authentication manages secure user sign-ins with JWT
+	•	Protected backend routes with middleware to validate user tokens and permissions
+
+⸻
